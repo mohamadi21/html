@@ -1,0 +1,17 @@
+
+@font-face{
+    font-family: niconne;
+    src: url('../fonts/niconne.eot') format('eot');
+    src: url('../fonts/niconne.ttf') format('ttf');
+    src: url('../fonts/niconne.woff') format('woff');
+
+}
+p{
+    font-family: niconne;
+    font-size: 80pt;
+    color: white;
+    text-shadow: 1px 3px 0 rgb(202, 45, 17) ,  1px 6px 0 orange , 1px 9px 0 aquamarine , 
+     1px 12px 0 darkcyan , 1px 15px 0 rgb(28, 4, 136) , 2px 18px 0px rgb(163, 0, 33);
+     line-height: 28%;
+     text-align: center;
+}

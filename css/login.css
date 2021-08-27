@@ -1,0 +1,66 @@
+body{
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div{
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    padding: 10px 0 10px 0;
+
+}
+h3{
+    margin: 25px;
+}
+span{
+    color:dodgerblue;
+}
+.bord{
+    border: none;
+    border-bottom: 0.5px solid dodgerblue;
+    width: 80%;
+    padding-top: 30px;
+}
+.bord:focus{
+    border: none;
+    border-bottom: 2px solid dodgerblue;
+}
+.button{
+    border: none;
+    background-image:linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: white;
+    font-size: 16px;
+    width: 80%;
+    height: 35px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.button:hover{
+    background-image:linear-gradient(190deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+
+a{
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+#create{
+    color: dodgerblue;
+    margin-top: 10px;
+}
+#forgot{
+    color: black;
+}
+#home{
+    margin-top: 10px;
+    font-size: 13px;
+}
